@@ -3,7 +3,7 @@
 	"package": "erengee.nobedherekitty.mixin",
 	"compatibilityLevel": "JAVA_21",
 	"mixins": [
-		"ExampleMixin"
+		"GoToBeadAndSleepGoalMixin"
 	],
 	"injectors": {
 		"defaultRequire": 1

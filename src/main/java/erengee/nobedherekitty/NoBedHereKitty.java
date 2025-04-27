@@ -19,6 +19,6 @@ public class NoBedHereKitty implements ModInitializer {
 		// However, some things (like resources) may still be uninitialized.
 		// Proceed with mild caution.
 
-		LOGGER.info("Hello Fabric world!");
+		LOGGER.info("No Bed Here Kitty is initialized!");
 	}
 }
