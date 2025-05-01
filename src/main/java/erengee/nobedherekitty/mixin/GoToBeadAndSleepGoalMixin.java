@@ -1,6 +1,6 @@
 package erengee.nobedherekitty.mixin;
 
-import erengee.nobedherekitty.NoBedHereKitty;
+//import erengee.nobedherekitty.NoBedHereKitty;
 import net.minecraft.entity.ai.goal.GoToBedAndSleepGoal;
 import net.minecraft.entity.passive.CatEntity;
 import net.minecraft.util.math.BlockPos;
