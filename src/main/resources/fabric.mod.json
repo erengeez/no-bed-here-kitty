@@ -3,31 +3,24 @@
 	"id": "no-bed-here-kitty",
 	"version": "${version}",
 	"name": "No Bed Here, Kitty",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Stop cats from going to the obstructed beds",
 	"authors": [
-		"Me!"
+		"erengee"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/no-bed-here-kitty/icon.png",
 	"environment": "*",
 	"entrypoints": {
 		"main": [
 			"erengee.nobedherekitty.NoBedHereKitty"
-		],
-		"client": [
-			"erengee.nobedherekitty.NoBedHereKittyClient"
 		]
 	},
 	"mixins": [
-		"no-bed-here-kitty.mixins.json",
-		{
-			"config": "no-bed-here-kitty.client.mixins.json",
-			"environment": "client"
-		}
+		"no-bed-here-kitty.mixins.json"
 	],
 	"depends": {
 		"fabricloader": ">=0.16.0",
